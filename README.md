@@ -14,3 +14,9 @@ if using ufw: sudo ufw allow in on nebula1
 `/etc/docker/daemon.json`: set to `{"iptables": false}`
 
 otherwise it opens the port to the whole world...
+
+## Docker Updates
+
+see: ./docker/compose-updater-copy
+
+TODO: need to run docker-compose up periodically

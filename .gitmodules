@@ -1,0 +1,3 @@
+[submodule "docker/compose-updater-copy"]
+	path = docker/compose-updater-copy
+	url = https://github.com/farberbrodsky/compose-updater-copy.git
