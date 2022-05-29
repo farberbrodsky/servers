@@ -2,6 +2,9 @@ version: "3"
 services:
   syncthing:
     image: lscr.io/linuxserver/syncthing:latest
+    labels:
+      - "docker-compose-watcher.watch=1"
+      - "docker-compose-watcher.dir=/home/ubuntu/docker/syncthing"
     container_name: syncthing
     environment:
       - PUID=1000
